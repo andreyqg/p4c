@@ -968,6 +968,22 @@ const IR::Expression* ProgramStructure::convertHashAlgorithm(
         result = v1model.algorithm.csum16.Id();
     } else if (algorithm == "xor16") {
         result = v1model.algorithm.xor16.Id();
+    } else if (algorithm == "h1") {
+        result = v1model.algorithm.h1.Id();
+    } else if (algorithm == "h2") {
+        result = v1model.algorithm.h2.Id();
+    } else if (algorithm == "h3") {
+        result = v1model.algorithm.h3.Id();
+    } else if (algorithm == "h4") {
+        result = v1model.algorithm.h4.Id();
+    } else if (algorithm == "g1") {
+        result = v1model.algorithm.g1.Id();
+    } else if (algorithm == "g2") {
+        result = v1model.algorithm.g2.Id();
+    } else if (algorithm == "g3") {
+        result = v1model.algorithm.g3.Id();
+    } else if (algorithm == "g4") {
+        result = v1model.algorithm.g4.Id();
     } else {
         ::warning(ErrorType::WARN_UNSUPPORTED, "%1%: unexpected algorithm", algorithm);
         result = algorithm;
