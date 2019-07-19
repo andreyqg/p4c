@@ -290,7 +290,13 @@ enum HashAlgorithm {
     g1,
     g2,
     g3,
-    g4
+    g4,
+    hhd1,
+    hhd2,
+    hhd3,
+    hhd4,
+    hhd5,
+    hhd6
 }
 
 @deprecated("Please use mark_to_drop(standard_metadata) instead.")
