@@ -984,6 +984,18 @@ const IR::Expression* ProgramStructure::convertHashAlgorithm(
         result = v1model.algorithm.g3.Id();
     } else if (algorithm == "g4") {
         result = v1model.algorithm.g4.Id();
+    } else if (algorithm == "hhd1") {
+        result = v1model.algorithm.hhd1.Id();
+    } else if (algorithm == "hhd2") {
+        result = v1model.algorithm.hhd2.Id();
+    } else if (algorithm == "hhd3") {
+        result = v1model.algorithm.hhd3.Id();
+    } else if (algorithm == "hhd4") {
+        result = v1model.algorithm.hhd4.Id();
+    } else if (algorithm == "hhd5") {
+        result = v1model.algorithm.hhd5.Id();
+    } else if (algorithm == "hhd6") {
+        result = v1model.algorithm.hhd6.Id();
     } else {
         ::warning(ErrorType::WARN_UNSUPPORTED, "%1%: unexpected algorithm", algorithm);
         result = algorithm;

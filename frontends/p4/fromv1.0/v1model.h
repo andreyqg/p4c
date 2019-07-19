@@ -192,7 +192,8 @@ struct Algorithm_Model : public ::Model::Enum_Model {
                         crc16("crc16"), crc16_custom("crc16_custom"),
                         random("random"), identity("identity"), csum16("csum16"), xor16("xor16"),
                         h1("h1"), h2("h2"), h3("h3"), h4("h4"),
-                        g1("g1"), g2("g2"), g3("g3"), g4("g4") {}
+                        g1("g1"), g2("g2"), g3("g3"), g4("g4"),
+                        hhd("hhd"), hhd2("hhd2"), hhd3("hhd3"), hhd4("hhd4"), hhd5("hhd5"), hhd6("hhd6") {}
     ::Model::Elem crc32;
     ::Model::Elem crc32_custom;
     ::Model::Elem crc16;
@@ -209,6 +210,12 @@ struct Algorithm_Model : public ::Model::Enum_Model {
     ::Model::Elem g2;
     ::Model::Elem g3;
     ::Model::Elem g4;
+    ::Model::Elem hhd1;
+    ::Model::Elem hhd2;
+    ::Model::Elem hhd3;
+    ::Model::Elem hhd4;
+    ::Model::Elem hhd5;
+    ::Model::Elem hhd6;
 };
 
 struct Hash_Model : public ::Model::Elem {
