@@ -210,12 +210,12 @@ struct Algorithm_Model : public ::Model::Enum_Model {
     ::Model::Elem g2;
     ::Model::Elem g3;
     ::Model::Elem g4;
-    ::Model::Elem hhd1;
-    ::Model::Elem hhd2;
-    ::Model::Elem hhd3;
-    ::Model::Elem hhd4;
-    ::Model::Elem hhd5;
-    ::Model::Elem hhd6;
+    ::Model::Elem d1;
+    ::Model::Elem d2;
+    ::Model::Elem d3;
+    ::Model::Elem d4;
+    ::Model::Elem d5;
+    ::Model::Elem d6;
 };
 
 struct Hash_Model : public ::Model::Elem {
