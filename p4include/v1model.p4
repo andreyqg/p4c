@@ -291,12 +291,12 @@ enum HashAlgorithm {
     g2,
     g3,
     g4,
-    hhd1,
-    hhd2,
-    hhd3,
-    hhd4,
-    hhd5,
-    hhd6
+    d1,
+    d2,
+    d3,
+    d4,
+    d5,
+    d6
 }
 
 @deprecated("Please use mark_to_drop(standard_metadata) instead.")
