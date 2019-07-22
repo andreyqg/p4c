@@ -287,18 +287,18 @@ ExternConverter::convertHashAlgorithm(cstring algorithm) {
         result = "g3";
     else if (algorithm == P4V1::V1Model::instance.algorithm.g4.name)
         result = "g4";
-    else if (algorithm == P4V1::V1Model::instance.algorithm.hhd1.name)
-        result = "hhd1";
-    else if (algorithm == P4V1::V1Model::instance.algorithm.hhd2.name)
-        result = "hhd2";
-    else if (algorithm == P4V1::V1Model::instance.algorithm.hhd3.name)
-        result = "hhd3";
-    else if (algorithm == P4V1::V1Model::instance.algorithm.hhd4.name)
-        result = "hhd4";
-    else if (algorithm == P4V1::V1Model::instance.algorithm.hhd5.name)
-        result = "hhd5";
-    else if (algorithm == P4V1::V1Model::instance.algorithm.hhd6.name)
-        result = "hhd6";
+    else if (algorithm == P4V1::V1Model::instance.algorithm.d1.name)
+        result = "d1";
+    else if (algorithm == P4V1::V1Model::instance.algorithm.d2.name)
+        result = "d2";
+    else if (algorithm == P4V1::V1Model::instance.algorithm.d3.name)
+        result = "d3";
+    else if (algorithm == P4V1::V1Model::instance.algorithm.d4.name)
+        result = "d4";
+    else if (algorithm == P4V1::V1Model::instance.algorithm.d5.name)
+        result = "d5";
+    else if (algorithm == P4V1::V1Model::instance.algorithm.d6.name)
+        result = "d6";
     else
         ::error("Unsupported algorithm %1%", algorithm);
     return result;
